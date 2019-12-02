@@ -1,0 +1,36 @@
+{
+  "label": "Shopify Analysis by Stitch",
+  "category_label": "Models",
+  "branding": {
+    "image_uri": "",
+    "tagline": "Load your Shopify data into your data warehouse with Stitch and use this Block to jumpstart your analysis. Track orders, identify top products, profile customers, and monitor contents of abandoned carts with the predefined dashboards."
+  },
+
+  "constants": {
+    "CONNECTION_NAME": {
+      "label": "Connection Name",
+      "value_constraint": "connection"
+    },
+    "Shopify_SCHEMA_NAME": {
+      "label": "Schema Name"
+    },
+    "CONFIG_PROJECT_NAME": {
+      "label": "Config Project Name"
+    }
+  },
+
+  "models": [
+    {
+      "name": "block_stitch_shopify",
+      "connection_constant": "CONNECTION_NAME"
+    }
+  ],
+  "auxiliary_projects": [
+    {
+      "git_uri": "git@github.com:llooker/block-stitch-shopify-config.git",
+      "git_ref": "",
+      "label": "Stitch Shopify Config",
+      "constant_name": "config_project_name"
+    }
+  ]
+}
