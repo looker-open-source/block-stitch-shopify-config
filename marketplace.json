@@ -2,7 +2,7 @@
   "label": "Shopify Analysis by Stitch",
   "category_label": "Models",
   "branding": {
-    "image_uri": "",
+    "image_uri": "http://api-lunacy.icons8.com/api/assets/4d19014a-72d0-4143-80bb-952646354f42/stitch-logo-copy@3x.png",
     "tagline": "Load your Shopify data into your data warehouse with Stitch and use this Block to jumpstart your analysis. Track orders, identify top products, profile customers, and monitor contents of abandoned carts with the predefined dashboards."
   },
 
@@ -28,7 +28,7 @@
   "auxiliary_projects": [
     {
       "git_uri": "git@github.com:llooker/block-stitch-shopify-config.git",
-      "git_ref": "",
+      "git_ref": "a5df637b70fa662f8b566ef899d3dc40676b32cd",
       "label": "Stitch Shopify Config",
       "constant_name": "config_project_name"
     }
